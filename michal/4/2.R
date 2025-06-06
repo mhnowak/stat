@@ -16,12 +16,14 @@ print(theo)
 print("Comparison: ")
 comparison <- rbind(emp, theo)
 
-barplot(comparison, beside = TRUE,
+barplot(comparison,
+        beside = TRUE,
         col = c("lightblue", "lightgreen"),
         legend.text = c("Empiryczny", "Teoretyczny"),
         names.arg = x_vals,
         main = "Porównanie: empiryczny vs teoretyczny (Poissona)",
-        ylab = "Prawdopodobieństwo")
+        ylab = "Prawdopodobieństwo"
+)
 
 
 
@@ -41,4 +43,4 @@ barplot(comparison, beside = TRUE,
 # qqline(observed, distribution = function(p) qpois(p, lambda = lambda_hat),
 #        col = "red", lwd = 2)
 
-# 
+#
