@@ -33,6 +33,3 @@ Wybierz odpowiedni test statystyczny i wykonaj pełną analizę z jego wykorzyst
 W zbiorze danych `mtcars` mamy informacje o szeregu zmiennych opisujących samochody.
 Skonstruuj model regresyjny opisujący zależność między zmienną `vs` a dwiema zmiennymi niezależnymi `mpg` i `drat`.
 Wykonaj pełną analizę w odpowiednim modelu wraz z ewentualną redukcją tego modelu.
-
-```
-```
