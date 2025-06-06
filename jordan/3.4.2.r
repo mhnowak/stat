@@ -44,6 +44,7 @@ kurtosis <- function(x) {
         sd_x <- sd(x)
         sum(((x - mean_x) / sd_x)^4) / n - 3
 }
+
 # Apply to your data
 cat("Skewness of Liczba:", skewness(Centrala$Liczba), "\n")
 cat("Kurtosis of Liczba:", kurtosis(Centrala$Liczba), "\n")
